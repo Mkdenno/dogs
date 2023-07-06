@@ -3,6 +3,12 @@
     margin: 0;
     box-sizing: border-box;
 }
+.dg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 #dogs{
     width: 100%;
     display: flex;
@@ -11,11 +17,22 @@
     align-items: center;
 
 }
-.dogiiis{
+.search-container{
+  display: flex;
+  justify-content: center;
+  align-self: auto;
+  margin: 2rem 0;
+}
+/* .dogiiis{
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-direction: column;
+} */
+.dogcomments{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 0 4rem;
 }
 
 form > input{
@@ -52,9 +69,7 @@ form > input{
     background-color:green;
     text-align: center;
     cursor: pointer;
-    width: 100%;
     font-size: 18px;
-    margin-top: 4rem;
   }
   .bold{
     font-weight: bold;
@@ -86,6 +101,46 @@ form > input{
     background-color: white;
     color: black;
   }
+
+  /* review css */
+  .review{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    word-wrap: break-word;
+    width: 600px;
+  }
+  .container{
+    word-wrap: break-word;
+  }
+.output{
+  width: 500px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  word-wrap: break-word;
+
+}
+.output button{
+  background-color: red;
+  margin-left: 400px;
+  padding: 10px;
+  border-radius: 8px;
+}
+.output p{
+  width: 500px;
+  word-wrap: break-word;
+}
+
+.submit{
+  padding: 8px;
+  background-color: green;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+}
+
 
 
 
