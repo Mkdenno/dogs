@@ -35,7 +35,7 @@ function displayDogs(dogii){
     <span class="bold">Temperament:</span><a>${dogii.temperament}</a><br/><br/>
     <span class="bold">Description:</span><a>${dogii.description}</a><br/><br/>
  
-    <button type="button" onClick="onClick()">Clicks:<a id="clicks">0</a></button>
+    <button type="button" onClick="onClick()">Likes:<a id="clicks">0</a></button>
     
     </div>
 
